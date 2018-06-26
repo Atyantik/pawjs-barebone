@@ -23,6 +23,13 @@
       "email": "thakur.yash514@gmail.com",
       "url": "http://yashthakur.in/"
     },
+  "contributors": [
+    {
+      "name": "Atyantik Technologies Private Limited",
+      "email": "admin@atyantik.com",
+      "url": "https://www.atyantik.com/"
+    }
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/atyantik/pawjs-barebone/issues"
