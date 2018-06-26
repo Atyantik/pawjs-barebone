@@ -1,0 +1,29 @@
+{
+  "name": "pawjs-barebone",
+  "version": "1.0.0",
+  "description": "Getting started with pawjs 2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "pawjs start:dev",
+    "build": "pawjs build:prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atyantik/pawjs-barebone.git"
+  },
+  "keywords": [
+    "pawjs",
+    "react-pwa",
+    "barebone",
+    "hello-world"
+  ],
+  "author": "Yash Thakur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atyantik/pawjs-barebone/issues"
+  },
+  "homepage": "https://github.com/atyantik/pawjs-barebone#readme",
+  "devDependencies": {
+    "pawjs": "^0.8.3"
+  }
+}
