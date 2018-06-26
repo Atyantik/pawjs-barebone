@@ -1,5 +1,5 @@
 # PawJS-barebone
-###Quick Start
+### Quick Start
 Clone the repository:
 ```bash
 git clone https://github.com/Atyantik/pawjs-barebone.git && cd pawjs-barebone 
