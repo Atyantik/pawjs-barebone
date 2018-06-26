@@ -1,7 +1,7 @@
 {
   "name": "pawjs-barebone",
   "version": "1.0.0",
-  "description": "Getting started with pawjs 2",
+  "description": "PawJS Barebone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "pawjs start:dev",
@@ -17,8 +17,13 @@
     "barebone",
     "hello-world"
   ],
-  "author": "Yash Thakur",
-  "license": "ISC",
+  "author":
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "http://yashthakur.in/"
+    },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/atyantik/pawjs-barebone/issues"
   },
