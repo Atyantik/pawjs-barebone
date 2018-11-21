@@ -4,8 +4,8 @@
   "description": "PawJS Barebone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pawjs start:dev",
-    "build": "pawjs build:prod"
+    "start": "pawjs --no-cache --env=development start",
+    "build": "pawjs --no-cache --config=./prod.pawconfig.json --env=production build"
   },
   "repository": {
     "type": "git",
@@ -17,12 +17,11 @@
     "barebone",
     "hello-world"
   ],
-  "author":
-    {
-      "name": "Yash Thakur",
-      "email": "thakur.yash514@gmail.com",
-      "url": "http://yashthakur.in/"
-    },
+  "author": {
+    "name": "Yash Thakur",
+    "email": "thakur.yash514@gmail.com",
+    "url": "http://yashthakur.in/"
+  },
   "contributors": [
     {
       "name": "Atyantik Technologies Private Limited",
@@ -35,7 +34,8 @@
     "url": "https://github.com/atyantik/pawjs-barebone/issues"
   },
   "homepage": "https://github.com/atyantik/pawjs-barebone#readme",
-  "devDependencies": {
-    "pawjs": "^0.8.3"
+  "dependencies": {
+    "@pawjs/pawjs": "^2.2.10",
+    "react": "^16.6.3"
   }
 }
