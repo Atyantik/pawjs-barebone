@@ -1,5 +1,11 @@
 import React from 'react';
 
+// You may create such components in src/components and organize it
+// as per your preference
+const HelloWorld = () => (
+  <h1>Hello, World!</h1>
+);
+
 export default class Routes {
   // eslint-disable-next-line
   apply(routeHandler) {
@@ -7,7 +13,11 @@ export default class Routes {
       {
         path: '/',
         exact: true,
-        component: () => <div>Hello World.</div>,
+        component: () => HelloWorld,
+        seo: {
+          title: 'Barebone ReactPWA Application',
+          description: 'A developer friendly framework'
+        }
       },
     ];
 
