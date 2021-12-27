@@ -1,9 +1,0 @@
-{
-  "extends": [
-    "./node_modules/@pawjs/pawjs/tslint.json"
-  ],
-  "rules": {
-    "no-submodule-imports": false,
-    "jsx-no-multiline-js": false
-  }
-}

@@ -35,10 +35,6 @@
   },
   "homepage": "https://github.com/atyantik/pawjs-barebone#readme",
   "dependencies": {
-    "@pawjs/pawjs": "^3.0.0-alpha.14",
-    "react": "^16.8.6"
-  },
-  "devDependencies": {
-    "eslint-import-resolver-webpack": "^0.11.1"
+    "@pawjs/pawjs": "^4.0.0-beta.4"
   }
 }

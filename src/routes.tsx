@@ -1,23 +1,16 @@
-import React from 'react';
-
-// You may create such components in src/components and organize it
-// as per your preference
-const HelloWorld = () => (
-  <h1>Hello, World!</h1>
-);
+import RouteHandler from '@pawjs/pawjs/src/router/handler';
 
 export default class Routes {
   // eslint-disable-next-line
-  apply(routeHandler) {
+  apply(routeHandler: RouteHandler) {
     const routes = [
       {
         path: '/',
-        exact: true,
-        component: () => HelloWorld,
+        component: () => import('./components/hello-world'),
         seo: {
           title: 'Barebone ReactPWA Application',
-          description: 'A developer friendly framework'
-        }
+          description: 'A developer friendly framework',
+        },
       },
     ];
 
