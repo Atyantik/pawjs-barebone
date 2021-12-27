@@ -1,7 +1,21 @@
 {
-  "extends": ["./node_modules/@pawjs/pawjs/.eslintrc.json"],
+  "extends": [
+    "./node_modules/@pawjs/pawjs/.eslintrc.json",
+    "airbnb",
+    "airbnb-typescript",
+    "prettier"
+  ],
   "parserOptions": {
     "project": "./tsconfig.json"
+  },
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": true, "allowTemplateLiterals": false }
+    ],
+    "max-len": ["error", { "code": 80, "ignoreUrls": true }]
   },
   "settings": {
     "react": {

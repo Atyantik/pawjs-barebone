@@ -1,5 +1,6 @@
-const HelloWorld = () => (
-  <h1>Hello, World!</h1>
-);
+const HelloWorld = function HelloWorld() {
+  const name = 'Deep';
+  return <h1>Hello, ${name}!</h1>;
+};
 
 export default HelloWorld;
