@@ -4,8 +4,8 @@
   "description": "PawJS Barebone",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pawjs --no-cache --env=development start",
-    "build": "pawjs --no-cache --config=./prod.pawconfig.json --env=production build"
+    "start": "pawjs --env=development start",
+    "build": "ENV_CONFIG_PATH=./.prod.env pawjs --env=production build"
   },
   "repository": {
     "type": "git",
@@ -18,15 +18,20 @@
     "hello-world"
   ],
   "author": {
-    "name": "Yash Thakur",
-    "email": "thakur.yash514@gmail.com",
-    "url": "http://yashthakur.in/"
+    "name": "Tirth Bodawala",
+    "email": "tirthbodawala@atyantik.com",
+    "url": "https://www.atyantik.com/"
   },
   "contributors": [
     {
       "name": "Atyantik Technologies Private Limited",
       "email": "admin@atyantik.com",
       "url": "https://www.atyantik.com/"
+    },
+    {
+      "name": "Yash Thakur",
+      "email": "thakur.yash514@gmail.com",
+      "url": "http://yashthakur.in/"
     }
   ],
   "license": "MIT",
